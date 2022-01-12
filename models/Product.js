@@ -31,7 +31,7 @@ Product.init(
     stock: {
       type: DataTypes.INTEGER,
       allowNull: false,
-      defaultValue: '0', //~~~ Possibly dangerous string
+      defaultValue: '0', 
       validate: {
         isNumeric: true
       }
